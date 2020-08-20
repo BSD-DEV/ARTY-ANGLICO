@@ -18,7 +18,7 @@
 * If you choose to place specific ARTY or ANGLICO personnel on the map, they should be named beginning with "JTAC" for Artillery observers, or ANGLICO for Naval Missile work. 
 * The deployed unit via CTLD is the BSD Marine TOW Infantry Unit. You can use other units, but this one is more easily CTLD transportable. A regular Infantry guy has no sensors and won't detect anything. The TOW unit is highly recommended.
 * Behaviors:
-  * Detection range is highly conditions dependent, and will extend to 6-7km at max. 
+  * Detection range is highly conditions dependent, LoS only, and will extend to 6-7km at max. 
   * The TOW unit will fire on enemies himself unless you are too far away (4km+) for him to engage. You can CA him to HOLD FIRE if desired.
   * He will detect at night, but his range is severely reduced.
   * The ARTY or ANGLICO observer will keep fire coming from the nearest applicable asset until:
