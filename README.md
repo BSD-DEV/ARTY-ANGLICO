@@ -28,6 +28,7 @@
 
 ## DCS LIMITATIONS:
 
+* Ground Artillery is not point-accurate in DCS and cannot be made to be so. It may take numerous engagement cycles to hit even a single target. 
 * Cruise missiles (From the Arleigh Burke or Ticonderoga class ships) sometimes follow terrain too closely. They may crash into terrain if they encounter repeated and steep peaks and valleys. It is not possible to modify the missile trajectory. Find some other way to engage that target.
 * Cruise missiles need lofting room to see their target. They cannot successfully attack a target that is on the leeward (far, downhill) side of a hill. They will often overshoot.
 * If you see this happening, or see the cruise missile crashing into the same tree over and over that is blocking the target, don't let the ship exhaust its ordnance. Instead:
