@@ -22,17 +22,18 @@
   * The TOW unit will fire on enemies himself unless you are too far away (4km+) for him to engage. You can CA him to HOLD FIRE if desired.
   * He will detect at night, but his range is severely reduced.
   * The ARTY or ANGLICO observer will keep fire coming from the nearest applicable asset until:
-    * All detected targets are destroyed, or
-    * The firing unit is out of ammo.
+  * All detected targets are destroyed, or
+  * The firing unit is out of ammo.
 * For Cruise Missiles, the initial salvo will typically be 150% of the target population. They will re-engage as often as needed.
 
 ## DCS LIMITATIONS:
 
-* Cruise missiles (From the Arleigh Burke or Ticonderoga class ships) sometimes follow terrain too closely. They may crash into terrain if they encounter repeated and steep peaks and valleys. 
-* Cruise missiles cannot successfully attack a target that is on the leeward (far, downhill) side of a hill. They will often overshoot.
-* If you see this happening, or see the cruise missile crashing into the same tree over and over, stop the madness by either:
-  * retrieving the observer back into the helicopter, or 
-  * Using CA to place the ship on "HOLD FIRE" ROE.  
+* Cruise missiles (From the Arleigh Burke or Ticonderoga class ships) sometimes follow terrain too closely. They may crash into terrain if they encounter repeated and steep peaks and valleys. It is not possible to modify the missile trajectory. Find some other way to engage that target.
+* Cruise missiles need lofting room to see their target. They cannot successfully attack a target that is on the leeward (far, downhill) side of a hill. They will often overshoot.
+* If you see this happening, or see the cruise missile crashing into the same tree over and over that is blocking the target, don't let the ship exhaust its ordnance. Instead:
+* retrieve the observer back into the helicopter, or 
+* Use CA to place the ship on "HOLD FIRE" ROE.  
+* Reposition the ship with CA to avoid the troublesome obstacle (time consuming)
   
   
   
