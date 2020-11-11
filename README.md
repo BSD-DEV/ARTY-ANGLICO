@@ -26,11 +26,30 @@
   * The firing unit is out of ammo.
 * For Cruise Missiles, the initial salvo will typically be 150% of the target population. They will re-engage as often as needed.
 
+*  A variable must be set to allow automatic calls for fire.  This can be done in a DO_SCRIPT trigger with the following code statement:
+
+call_for_fire_allowed = true
+
+*If this is NOT set, the personnel will not issue calls for fire*
+
+
+## ANGLICO SPECIFICS
+
+* Calling for ANGLICO fire (cruise missile) is NOT automatic. It is a three step process:
+
+1 - enable call_for_fire_allowed.  Either at large in your mission, or by creating radio menus that do so.  
+
+2 - Assembling a target list.  This is the targets that the ANGLICO guy sees at any one time. The list of engageable targets is displayed as messages. The list will fluctuate somewhat (welcome to DCS), so re-select this radio menu item as many times as is necessary to get the list you want.
+
+3 - Execute the call for fire. Selecting this takes the target package in step #2, calls them all in to the ship, and clears them to fire. If a target is NOT in the list in #2, it will NOT be engaged.  
+
+A salvo of BGM-109 missiles will be sent to your targets.  
+
 ## DCS LIMITATIONS:
 
 * Ground Artillery is not point-accurate in DCS and cannot be made to be so. It may take numerous engagement cycles to hit even a single target. 
 * Cruise missiles (From the Arleigh Burke or Ticonderoga class ships) sometimes follow terrain too closely. They may crash into terrain if they encounter repeated and steep peaks and valleys. It is not possible to modify the missile trajectory. Find some other way to engage that target.
-* Cruise missiles need lofting room to see their target. They cannot successfully attack a target that is on the leeward (far, downhill) side of a hill. They will often overshoot.
+* Cruise missiles need lofting room to see their target. They cannot successfully attack a target that is on the leeward (far) side of a hill. They will often overshoot.
 * If you see this happening, or see the cruise missile crashing into the same tree over and over that is blocking the target, don't let the ship exhaust its ordnance. Instead:
 * retrieve the observer back into the helicopter, or 
 * Use CA to place the ship on "HOLD FIRE" ROE.  
